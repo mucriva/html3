@@ -19,7 +19,8 @@ function este_prim(n)
 }
 function start_calcul(start_numar)
 {
-	if (ruleaza == false);
+	if (ruleaza == false)
+		;
 	else {
 		for (var i = start_numar; i < start_numar + 100; i++)
 		if (este_prim(i))
