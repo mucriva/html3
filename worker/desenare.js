@@ -54,5 +54,5 @@ function stop()
 	document.getElementById("id_start").disabled = false;
 	document.getElementById("id_stop").disabled = true;
 	
-	muncitor.portMessage("stop");
+	muncitor.postMessage("stop");
 }
