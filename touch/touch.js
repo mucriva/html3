@@ -52,8 +52,7 @@ function touch_move_uab(e)
 			}
 		context.beginPath();
 		context.moveTo(last_touch[touch_index].x - client_rect.left, last_touch[touch_index].y - client_rect.top);
-		context.lineTo(t[i].pageX - client_rect.left,
-						t[i].pageY - client_rect.top;
+		context.lineTo(t[i].pageX - client_rect.left, t[i].pageY - client_rect.top;
 		context.lineWidth = 20;
 		context.strokeStyle = last_touch[touch_index].color;
 		context.fillStyle = last_touch[touch_index].color;
