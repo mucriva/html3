@@ -1,4 +1,4 @@
-document.getElementById("id_logic").innerHTML = "2019.11.29.7";
+document.getElementById("id_logic").innerHTML = "2019.11.29.8";
 
 window.addEventListener("touchstart", touch_start_uab, {pasive: false}); 
 window.addEventListener("touchmove", touch_move_uab, {pasive: false});
@@ -66,8 +66,8 @@ function touch_move_uab(e)
 		context.fill();
 		context.stroke();
 		
-		last_touch[touch_index].x = t[i].x;
-		last_touch[touch_index].y = t[i].y;
+		last_touch[touch_index].x = t[i].pageX;
+		last_touch[touch_index].y = t[i].pageY;
 	}
 }
 function touch_end_uab(e)
