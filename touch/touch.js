@@ -46,7 +46,7 @@ function touch_move_uab(e)
 	for (var i = 0; i < t.length; i++){
 		var touch_index = -1;
 		for (var j = 0; j < last_touch.length; j++)
-			if (t[i].identifier == last_touch[j].identifier){
+			if (t[i].identifier == last_touch[j].id){
 				touch_index = j;
 				break;
 			}
